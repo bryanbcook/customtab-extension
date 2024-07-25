@@ -1,0 +1,21 @@
+{
+  "manifestVersion": 1,
+  "id": "bcook.customtab",
+  "name": "CustomTab",
+  "publisher": "bcook",
+  "version": "0.0.1",
+  "description": "A custom tab in the build pipeline",
+  "public": false,
+  "categories": ["Azure Pipeline"],
+  "targets": [
+      {
+          "id": "Microsoft.VisualStudio.Services"
+      }
+  ],
+  "demands": [
+      "api-version/3.0"
+  ],
+  "scopes": [],
+  "contributions": [],
+  "files": []
+}
